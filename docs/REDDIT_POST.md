@@ -1,36 +1,27 @@
 # Reddit post draft (r/VirtualDJ)
 
-**Title:** I made a free hardware-controller style skin for the VirtualDJ Remote app (2560x1600 tablets), open source
+**Title:** I made a free, open-source hardware-style skin for the VirtualDJ Remote app (2560x1600 tablets)
 
 **Body:**
 
-I wasn't happy with the stock Remote layout on my tablet, so I built a skin that looks and behaves more like a
-DDJ-style controller, and I'm sharing it in case it is useful to anyone else.
+I wasn't happy with the stock Remote layout on my tablet, so I built a skin that looks and feels more like a
+two-deck controller. Sharing it in case it is useful to you too.
 
 **What it has**
 
-- Two stacked colour scratchwaves with a beat-tick lane between them
-- Jog discs with phase rings, a pitch fader with a zero arrow (slow reset), big CUE / PLAY
-- Pad tabs: Hot Cues, Stems 2.0, Slicer, Beatjump, with a SHIFT for deleting hot cues
-- Desktop-style mixer: pointer knobs (tap the label to reset, it shows the % when off centre), faders, VU, PFL, crossfader
-- Shared beat / phrase counter, key shift display with reset, a loop row (in / out / halve / double)
-- Automix controls (automix, shuffle, next), an automix queue list, a hamburger menu for sampler / loop / FX
-- Blinking: PLAY while paused, jog ring in the last 30 s of a track
+- Stacked colour waveforms with a beat-tick lane
+- Jog discs, pitch faders, big CUE and PLAY
+- Pads: Hot Cues, Stems, Slicer, Beatjump, with SHIFT
+- Loop controls, key shift, shared beat counter
+- Mixer with EQ, filter and gain knobs, faders, PFL and crossfader
+- Automix, shuffle and next, plus a menu for Sampler, Loop and Effects
 
-**Running on:** Galaxy Tab S9 FE+ (2560x1600), VirtualDJ build 9644, Remote 8.0.64. I would love for you to try it on your own tablet and tell me how it looks. Screenshots, device and resolution, and any layout problems are all welcome.
+**Running on:** Galaxy Tab S9 FE+ (2560x1600), VirtualDJ build 9644, Remote 8.0.64.
 
-**Honest limitations**
+I would love for you to try it on your own tablet and tell me how it looks. Screenshots, your device and
+resolution, and any problems are all welcome, and pull requests too.
 
-- The Remote can't draw a beat grid inside a scratchwave, so the beat ticks come from a separate rhythm zone and
-  may not line up perfectly with the waveform.
-- A few features rely on script verbs I took from the docs and could not fully verify on every setup (shuffle,
-  the range cycle, the automix LOAD behaviour).
-- It can't show VirtualDJ's browser or track lists on the tablet.
+It is unofficial and not affiliated with Atomix. Download and install guide:
+https://github.com/guneethind/vdj-tablet-deck-skin
 
-It is unofficial and not affiliated with Atomix. It's generated from code (Node.js), and the repo has the source,
-tests and an install guide: https://github.com/guneethind/vdj-tablet-deck-skin
-
-Download the zip from the Releases page, copy it (don't unzip) into `%LOCALAPPDATA%\VirtualDJ\RemoteSkins` and
-`...\Skins`, restart VirtualDJ and select it. Feedback and screenshots from other devices are very welcome.
-
-*(Attach docs/screenshot.jpg, a real screenshot from the tablet, and ideally 1-2 more.)*
+*(Attach docs/screenshot.jpg, and ideally 1-2 more screenshots.)*
