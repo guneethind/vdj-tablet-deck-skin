@@ -1,6 +1,6 @@
 # VDJ Tablet Deck Skin
 
-A two-deck, hardware-controller style skin for the **VirtualDJ Remote** app, made for **2560 x 1600** tablets.
+A two-deck, hardware-controller style skin for the **VirtualDJ Remote** app.
 
 ![VDJ Tablet Deck Skin running on a Galaxy Tab S9 FE+](docs/screenshot.jpg)
 
