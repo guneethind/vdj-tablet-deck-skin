@@ -34,7 +34,7 @@ name for play and stop.
 | Remote app | 8.0.64 |
 | Tablet | Samsung Galaxy Tab S9 FE+ (2560 x 1600) |
 
-Other devices and resolutions are untested. The skin is authored at a fixed 2560 x 1600 canvas.
+Built for 2560 x 1600 screens. **Got a different tablet or resolution? Please try it and tell us how it looks.** Open an issue with your device, resolution and a screenshot. Reports for other tablets help make this work for everyone, and pull requests for other layouts are very welcome.
 
 ## Versions
 
@@ -105,8 +105,11 @@ hard build gate: it fails the build on relative coordinates, elements outside th
 
 ## Contributing
 
-Issues and pull requests are welcome, especially device reports (tablet model and resolution) and screenshots.
-Please run `npm test` before opening a pull request.
+Contributions and testing are very welcome:
+
+- **Test it** on your tablet and open an issue with your device, resolution, VirtualDJ and Remote versions, and a screenshot.
+- **Report** anything that looks off or does not respond.
+- **Send pull requests** for layouts, fixes and ideas. Please run `npm test` first.
 
 ## License
 

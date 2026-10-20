@@ -17,8 +17,7 @@ DDJ-style controller, and I'm sharing it in case it is useful to anyone else.
 - Automix controls (automix, shuffle, next), an automix queue list, a hamburger menu for sampler / loop / FX
 - Blinking: PLAY while paused, jog ring in the last 30 s of a track
 
-**Tested on:** Galaxy Tab S9 FE+ (2560x1600), VirtualDJ build 9644, Remote 8.0.64. Other tablets are untested, so
-please tell me how it looks on yours.
+**Running on:** Galaxy Tab S9 FE+ (2560x1600), VirtualDJ build 9644, Remote 8.0.64. I would love for you to try it on your own tablet and tell me how it looks. Screenshots, device and resolution, and any layout problems are all welcome.
 
 **Honest limitations**
 
