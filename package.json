@@ -1,0 +1,20 @@
+{
+  "name": "vdj-remote-hw-skin",
+  "version": "3.0.0",
+  "description": "Hardware-controller style VirtualDJ Remote skin for 2560x1600 tablets, generated from code",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "build": "node build.js",
+    "install:local": "node build.js --install"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@resvg/resvg-js": "2.6.2",
+    "@xmldom/xmldom": "0.9.12",
+    "fflate": "0.8.3",
+    "pngjs": "7.0.0"
+  },
+  "private": true
+}
