@@ -52,4 +52,4 @@ Please try it on your tablet and open an issue with your device, resolution and 
 
 ## License
 
-MIT. See `LICENSE`.
+Released under the [MIT License](LICENSE) ([what this means](https://opensource.org/license/mit)).
