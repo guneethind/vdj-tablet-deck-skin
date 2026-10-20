@@ -39,6 +39,16 @@ name for play and stop.
 
 Other devices and resolutions are untested. The skin is authored at a fixed 2560 x 1600 canvas.
 
+## Versions
+
+| Release | What it is |
+|---|---|
+| [v3.0.0](../../releases/tag/v3.0.0) | Current. All features above. Source is this repo. |
+| [v2.0.0](../../releases/tag/v2.0.0) | Two variants: with the beat-tick lane (`HW Controller Remote v2.zip`) and without it (`... v2 no-beat-ticks.zip`). Install only one. |
+| [v1.0.0](../../releases/tag/v1.0.0) | First working build, fewer features. |
+
+Older releases include a source archive of the generator as it was then. Install only one version at a time.
+
 ## Install
 
 1. Download `HW Controller Remote v3.0.0.zip` from the [Releases](../../releases) page. **Do not unzip it.**
