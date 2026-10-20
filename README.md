@@ -52,7 +52,7 @@ Older releases include a source archive of the generator as it was then. Install
 ## Install
 
 1. Download `VDJ Tablet Deck Skin v3.0.0.zip` from the [Releases](../../releases) page. **Do not unzip it.**
-2. Copy the zip into both folders (create them if they do not exist):
+2. GitHub shows the file name with dots instead of spaces. Rename it to `VDJ Tablet Deck Skin.zip` (the file name is the skin name VirtualDJ lists), then copy it into both folders (create them if they do not exist):
    - `%LOCALAPPDATA%\VirtualDJ\RemoteSkins`
    - `%LOCALAPPDATA%\VirtualDJ\Skins`
 3. Restart VirtualDJ.
