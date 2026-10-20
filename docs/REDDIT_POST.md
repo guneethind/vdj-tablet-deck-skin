@@ -34,4 +34,4 @@ tests and an install guide: https://github.com/guneethind/vdj-tablet-deck-skin
 Download the zip from the Releases page, copy it (don't unzip) into `%LOCALAPPDATA%\VirtualDJ\RemoteSkins` and
 `...\Skins`, restart VirtualDJ and select it. Feedback and screenshots from other devices are very welcome.
 
-*(Add 2-3 real screenshots from the tablet before posting; the image in the repo is a placeholder-data render.)*
+*(Attach docs/screenshot.jpg, a real screenshot from the tablet, and ideally 1-2 more.)*

@@ -4,10 +4,7 @@ A hardware-controller style skin for the **VirtualDJ Remote** app, designed for 
 It replaces the stock Remote layout with a two-deck, DDJ-style surface: stacked colour scratchwaves, jog
 discs, performance pads, a desktop-style mixer and a shared beat/phrase counter.
 
-![Preview](docs/preview.png)
-
-> The preview is a reference render from this repo's own renderer. Track data, waveforms and album art are
-> placeholders; on the tablet VirtualDJ draws those.
+![VDJ Tablet Deck Skin running on a Galaxy Tab S9 FE+](docs/screenshot.jpg)
 
 **Unofficial.** Not affiliated with or endorsed by Atomix Productions; "VDJ" and "VirtualDJ" are used only to say what this skin is for. The repo contains no Atomix artwork or
 skin files; the skin is generated entirely from code in `src/`. It uses VirtualDJ's built-in system icons by
