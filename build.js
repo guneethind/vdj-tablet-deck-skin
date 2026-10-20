@@ -1,6 +1,6 @@
 'use strict';
 
-// Builds "HW Controller Remote <version>.zip" into ./dist and optionally installs it
+// Builds "VDJ Tablet Deck Skin <version>.zip" into ./dist and optionally installs it
 // into the local VirtualDJ Skins and RemoteSkins folders (--install).
 const fs = require('fs');
 const os = require('os');
@@ -16,7 +16,7 @@ skin.setGrid('between');
 skin.setStamp(`Version ${VERSION} | Build ${p2(d.getMonth() + 1)}${p2(d.getDate())}-${p2(d.getHours())}${p2(d.getMinutes())}`);
 
 const out = path.join(__dirname, 'dist');
-const name = `HW Controller Remote v${VERSION}.zip`;
+const name = `VDJ Tablet Deck Skin v${VERSION}.zip`;
 const r = build(skin, { outDir: out, zipName: name });
 console.log(`ok: ${r.elements} nodes, ${r.sprites} sprites, sheet ${r.sheet.width}x${r.sheet.height}`);
 console.log(`zip: ${r.zipPath}`);

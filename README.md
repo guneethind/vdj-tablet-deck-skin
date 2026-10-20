@@ -1,4 +1,4 @@
-# VDJ Remote Hardware Skin
+# VDJ Tablet Deck Skin
 
 A hardware-controller style skin for the **VirtualDJ Remote** app, designed for **2560 x 1600** tablets.
 It replaces the stock Remote layout with a two-deck, DDJ-style surface: stacked colour scratchwaves, jog
@@ -9,7 +9,7 @@ discs, performance pads, a desktop-style mixer and a shared beat/phrase counter.
 > The preview is a reference render from this repo's own renderer. Track data, waveforms and album art are
 > placeholders; on the tablet VirtualDJ draws those.
 
-**Unofficial.** Not affiliated with or endorsed by Atomix Productions. The repo contains no Atomix artwork or
+**Unofficial.** Not affiliated with or endorsed by Atomix Productions; "VDJ" and "VirtualDJ" are used only to say what this skin is for. The repo contains no Atomix artwork or
 skin files; the skin is generated entirely from code in `src/`. It uses VirtualDJ's built-in system icons by
 name for play and stop.
 
@@ -44,19 +44,19 @@ Other devices and resolutions are untested. The skin is authored at a fixed 2560
 | Release | What it is |
 |---|---|
 | [v3.0.0](../../releases/tag/v3.0.0) | Current. All features above. Source is this repo. |
-| [v2.0.0](../../releases/tag/v2.0.0) | Two variants: with the beat-tick lane (`HW Controller Remote v2.zip`) and without it (`... v2 no-beat-ticks.zip`). Install only one. |
+| [v2.0.0](../../releases/tag/v2.0.0) | Two variants: with the beat-tick lane (`VDJ Tablet Deck Skin v2.zip`) and without it (`... v2 no-beat-ticks.zip`). Install only one. |
 | [v1.0.0](../../releases/tag/v1.0.0) | First working build, fewer features. |
 
 Older releases include a source archive of the generator as it was then. Install only one version at a time.
 
 ## Install
 
-1. Download `HW Controller Remote v3.0.0.zip` from the [Releases](../../releases) page. **Do not unzip it.**
+1. Download `VDJ Tablet Deck Skin v3.0.0.zip` from the [Releases](../../releases) page. **Do not unzip it.**
 2. Copy the zip into both folders (create them if they do not exist):
    - `%LOCALAPPDATA%\VirtualDJ\RemoteSkins`
    - `%LOCALAPPDATA%\VirtualDJ\Skins`
 3. Restart VirtualDJ.
-4. Select **HW Controller Remote** as the skin for the Remote (in VirtualDJ's Settings, and/or from the skin
+4. Select **VDJ Tablet Deck Skin** as the skin for the Remote (in VirtualDJ's Settings, and/or from the skin
    list in the Remote app; menu names vary between versions).
 5. Reconnect the Remote. The bottom of the mixer shows `Version 3.0.0 | Build ...`, which tells you which
    build is loaded.
@@ -84,7 +84,7 @@ Requires Node.js 18 or newer.
 ```bash
 npm ci
 npm test
-npm run build            # writes dist/HW Controller Remote v3.0.0.zip
+npm run build            # writes dist/VDJ Tablet Deck Skin v3.0.0.zip
 npm run install:local    # also copies it into the Windows VirtualDJ folders
 ```
 

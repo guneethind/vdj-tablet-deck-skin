@@ -29,7 +29,7 @@ please tell me how it looks on yours.
 - It can't show VirtualDJ's browser or track lists on the tablet.
 
 It is unofficial and not affiliated with Atomix. It's generated from code (Node.js), and the repo has the source,
-tests and an install guide: https://github.com/guneethind/vdj-remote-hw-skin
+tests and an install guide: https://github.com/guneethind/vdj-tablet-deck-skin
 
 Download the zip from the Releases page, copy it (don't unzip) into `%LOCALAPPDATA%\VirtualDJ\RemoteSkins` and
 `...\Skins`, restart VirtualDJ and select it. Feedback and screenshots from other devices are very welcome.

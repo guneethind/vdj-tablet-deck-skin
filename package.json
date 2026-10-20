@@ -1,5 +1,5 @@
 {
-  "name": "vdj-remote-hw-skin",
+  "name": "vdj-tablet-deck-skin",
   "version": "3.0.0",
   "description": "Hardware-controller style VirtualDJ Remote skin for 2560x1600 tablets, generated from code",
   "scripts": {

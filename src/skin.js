@@ -464,8 +464,8 @@ function buildXml(R) {
   }));
 
   return el('Skin', {
-    name: 'HW Controller Remote', version: 8, width: W, height: H, nbdecks: 2,
-    author: 'hw-skin build', comment: 'Hardware-style 2560x1600 remote skin', preview: 'preview.png',
+    name: 'VDJ Tablet Deck Skin', version: 8, width: W, height: H, nbdecks: 2,
+    author: 'vdj-tablet-deck-skin', comment: 'Hardware-style 2560x1600 remote skin', preview: 'preview.png',
   }, [
     el('font', { name: tokens.font }),
     ...DECKS.map(info),
